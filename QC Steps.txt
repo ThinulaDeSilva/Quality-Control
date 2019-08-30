@@ -1,0 +1,9 @@
+Below is the QC steps for the folder:
+
+1. Run the program, and use the easygui output to select the folder you want to run in.
+2. Check for any errors (any peaks in the graph or parsing errors from incorrect namings) and fix them manually.
+3. The program internally takes care of renaming the rest of the images, and then creates an excel spreadsheet with the data
+4. Create the necessary folder structure (wrap the folder an excel sheet in a parent folder with the same name) and upload to Sharepoint
+
+The only thing that should be added is to automatically physically changed the names to the new file names after execution. 
+Right now, the program does the main task by renaming internally in the code, but the files in the folder should be renamed as well.
